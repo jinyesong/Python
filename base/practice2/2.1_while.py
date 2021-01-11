@@ -1,4 +1,6 @@
 num = int(input())
 
-for i in range(num):
+count = num
+while count > 0:
     print(num)
+    count -= 1
